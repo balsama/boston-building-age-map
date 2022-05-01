@@ -1,0 +1,51 @@
+{
+    "type": "FeatureCollection",
+    "name": "Boston_Buildings_1807",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 135891,
+                "BLDG_ID": "Bos_0501888000_B0",
+                "BID": 139057,
+                "LIFECYCLE_STATUS": 1,
+                "TYPE_ID": null,
+                "LIFECYCLE_DATE": null,
+                "Shapearea": 698.7320463560294,
+                "Shapelen": 116.44136181653109,
+                "sanitized_building_id": "501888000",
+                "year_built": "1807",
+                "year_build_era": "Pre-1915",
+                "address": "18 JOY ST",
+                "owners": "POWERS DAVID J"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -71.0651150340951,
+                            42.35915967410333
+                        ],
+                        [
+                            -71.06526762606546,
+                            42.35916345964216
+                        ],
+                        [
+                            -71.06526984018232,
+                            42.35911435717622
+                        ],
+                        [
+                            -71.06511700898339,
+                            42.35911589955351
+                        ],
+                        [
+                            -71.0651150340951,
+                            42.35915967410333
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}
