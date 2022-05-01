@@ -3518,3 +3518,14 @@ fetch("geojson/boston-buildings-2019.geojson").then(res => res.json()).then(data
         onEachFeature: onEachFeature,
     }).addTo(map);
 });
+var myStyleUkn = {
+    "color": "#ccc",
+    "weight": 1,
+    "opacity": 1,
+};
+fetch("geojson/boston-buildings-unknown.geojson").then(res => res.json()).then(data => {
+    L.geoJson(data, {
+        style: myStyleUkn,
+        onEachFeature: onEachFeature,
+    }).addTo(map);
+});
